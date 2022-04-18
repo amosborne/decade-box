@@ -58,7 +58,7 @@ Configuration2_Item2=OpenExported=False|AddToProject=False|ReportBOMViolationsIn
 Configuration2_Name3=GroupOrder
 Configuration2_Item3=
 Configuration2_Name4=SortOrder
-Configuration2_Item4=Designator=Up
+Configuration2_Item4=Line #=Up
 Configuration2_Name5=VisibleOrder
 Configuration2_Item5=Line #=100|Designator=101|Description=256|Quantity=67|Manufacturer 1=102|Manufacturer Part Number 1=169|Supplier 1=75|Supplier Part Number 1=100
 Configuration2_Name6=VisibleOrder_Base
