@@ -66,23 +66,6 @@ GenerateClassCluster=0
 DocumentUniqueId=CAFFPVPU
 
 [Document2]
-DocumentPath=lib\DecadeBox.PcbLib
-AnnotationEnabled=1
-AnnotateStartValue=1
-AnnotationIndexControlEnabled=0
-AnnotateSuffix=
-AnnotateScope=All
-AnnotateOrder=-1
-DoLibraryUpdate=1
-DoDatabaseUpdate=1
-ClassGenCCAutoEnabled=1
-ClassGenCCAutoRoomEnabled=1
-ClassGenNCAutoScope=None
-DItemRevisionGUID=
-GenerateClassCluster=0
-DocumentUniqueId=JRXWXGWB
-
-[Document3]
 DocumentPath=sch\DecadeBox.SchDoc
 AnnotationEnabled=1
 AnnotateStartValue=1
@@ -99,8 +82,8 @@ DItemRevisionGUID=
 GenerateClassCluster=0
 DocumentUniqueId=GMAUGKUF
 
-[Document4]
-DocumentPath=pcb\DecadeBox.PcbDoc
+[Document3]
+DocumentPath=DecadeBox.BomDoc
 AnnotationEnabled=1
 AnnotateStartValue=1
 AnnotationIndexControlEnabled=0
@@ -114,7 +97,24 @@ ClassGenCCAutoRoomEnabled=1
 ClassGenNCAutoScope=None
 DItemRevisionGUID=
 GenerateClassCluster=0
-DocumentUniqueId=RPNDTXJU
+DocumentUniqueId=
+
+[Document4]
+DocumentPath=DecadeBox.OutJob
+AnnotationEnabled=1
+AnnotateStartValue=1
+AnnotationIndexControlEnabled=0
+AnnotateSuffix=
+AnnotateScope=All
+AnnotateOrder=-1
+DoLibraryUpdate=1
+DoDatabaseUpdate=1
+ClassGenCCAutoEnabled=1
+ClassGenCCAutoRoomEnabled=1
+ClassGenNCAutoScope=None
+DItemRevisionGUID=
+GenerateClassCluster=0
+DocumentUniqueId=
 
 [Configuration1]
 Name=Sources
@@ -1040,64 +1040,16 @@ NetClassManualEnabled=1
 NetClassSeparateForBusSections=0
 
 [LibraryUpdateOptions]
-SelectedOnly=0
+SelectedOnly=1
 UpdateVariants=1
 UpdateToLatestRevision=1
 PartTypes=0
 ComponentLibIdentifierKind0=Library Name And Type
 ComponentLibraryIdentifier0=DecadeBox.SchLib
-ComponentDesignItemID0=JST-6PIN
-ComponentSymbolReference0=JST-6PIN
+ComponentDesignItemID0=RES-10OHM
+ComponentSymbolReference0=RES-10OHM
 ComponentUpdate0=1
 ComponentIsDeviceSheet0=0
-ComponentLibIdentifierKind1=Library Name And Type
-ComponentLibraryIdentifier1=DecadeBox.SchLib
-ComponentDesignItemID1=MTGHOLE
-ComponentSymbolReference1=MTGHOLE
-ComponentUpdate1=0
-ComponentIsDeviceSheet1=0
-ComponentLibIdentifierKind2=Library Name And Type
-ComponentLibraryIdentifier2=DecadeBox.SchLib
-ComponentDesignItemID2=RES-100KOHM
-ComponentSymbolReference2=RES-100KOHM
-ComponentUpdate2=0
-ComponentIsDeviceSheet2=0
-ComponentLibIdentifierKind3=Library Name And Type
-ComponentLibraryIdentifier3=DecadeBox.SchLib
-ComponentDesignItemID3=RES-100OHM
-ComponentSymbolReference3=RES-100OHM
-ComponentUpdate3=0
-ComponentIsDeviceSheet3=0
-ComponentLibIdentifierKind4=Library Name And Type
-ComponentLibraryIdentifier4=DecadeBox.SchLib
-ComponentDesignItemID4=RES-10KOHM
-ComponentSymbolReference4=RES-10KOHM
-ComponentUpdate4=0
-ComponentIsDeviceSheet4=0
-ComponentLibIdentifierKind5=Library Name And Type
-ComponentLibraryIdentifier5=DecadeBox.SchLib
-ComponentDesignItemID5=RES-10OHM
-ComponentSymbolReference5=RES-10OHM
-ComponentUpdate5=0
-ComponentIsDeviceSheet5=0
-ComponentLibIdentifierKind6=Library Name And Type
-ComponentLibraryIdentifier6=DecadeBox.SchLib
-ComponentDesignItemID6=RES-1KOHM
-ComponentSymbolReference6=RES-1KOHM
-ComponentUpdate6=0
-ComponentIsDeviceSheet6=0
-ComponentLibIdentifierKind7=Library Name And Type
-ComponentLibraryIdentifier7=DecadeBox.SchLib
-ComponentDesignItemID7=RES-1MOHM
-ComponentSymbolReference7=RES-1MOHM
-ComponentUpdate7=0
-ComponentIsDeviceSheet7=0
-ComponentLibIdentifierKind8=Library Name And Type
-ComponentLibraryIdentifier8=DecadeBox.SchLib
-ComponentDesignItemID8=RES-1OHM
-ComponentSymbolReference8=RES-1OHM
-ComponentUpdate8=0
-ComponentIsDeviceSheet8=0
 FullReplace=1
 UpdateDesignatorLock=1
 UpdatePartIDLock=1
@@ -1134,9 +1086,6 @@ ModelTypeUpdate0=1
 ModelType0=PCBLIB
 ModelName0=MRS25
 ModelUpdate0=1
-ModelType1=PCBLIB
-ModelName1=MTGHOLE
-ModelUpdate1=1
 
 [DatabaseUpdateOptions]
 SelectedOnly=0

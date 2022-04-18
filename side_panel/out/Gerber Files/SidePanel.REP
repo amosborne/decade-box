@@ -14,24 +14,12 @@ Used DCodes :
 *************************************************************
 
 *************************************************************
-Generating : Bottom Solder
-      File : SidePanel.GBS
-
-    Adding Layer      : Bottom Solder
+Generating : Bottom Layer
+      File : SidePanel.GBL
 
     Adding Layer      : Bottom Layer
 
     Adding Layer      : Multi-Layer
-
-
-Used DCodes :
-*************************************************************
-
-*************************************************************
-Generating : Bottom Overlay
-      File : SidePanel.GBO
-
-    Adding Layer      : Bottom Overlay
 
 
 Used DCodes :
@@ -49,14 +37,10 @@ Used DCodes :
 *************************************************************
 
 *************************************************************
-Generating : Top Solder
-      File : SidePanel.GTS
+Generating : Bottom Overlay
+      File : SidePanel.GBO
 
-    Adding Layer      : Top Solder
-
-    Adding Layer      : Top Layer
-
-    Adding Layer      : Multi-Layer
+    Adding Layer      : Bottom Overlay
 
 
 Used DCodes :
@@ -75,8 +59,24 @@ Used DCodes :
 *************************************************************
 
 *************************************************************
-Generating : Bottom Layer
-      File : SidePanel.GBL
+Generating : Top Solder
+      File : SidePanel.GTS
+
+    Adding Layer      : Top Solder
+
+    Adding Layer      : Top Layer
+
+    Adding Layer      : Multi-Layer
+
+
+Used DCodes :
+*************************************************************
+
+*************************************************************
+Generating : Bottom Solder
+      File : SidePanel.GBS
+
+    Adding Layer      : Bottom Solder
 
     Adding Layer      : Bottom Layer
 
