@@ -2,27 +2,6 @@
 FileName = FrontPanel.GBR
 AutoAperture = True
 *************************************************************
-Generating : Board Shape
-      File : FrontPanel.GM2
-
-    Adding Layer      : Board Shape
-
-
-Used DCodes :
-    D11
-*************************************************************
-
-*************************************************************
-Generating : Bottom Overlay
-      File : FrontPanel.GBO
-
-    Adding Layer      : Bottom Overlay
-
-
-Used DCodes :
-*************************************************************
-
-*************************************************************
 Generating : Bottom Solder
       File : FrontPanel.GBS
 
@@ -53,13 +32,14 @@ Used DCodes :
 *************************************************************
 
 *************************************************************
-Generating : Top Overlay
-      File : FrontPanel.GTO
+Generating : Board Shape
+      File : FrontPanel.GM2
 
-    Adding Layer      : Top Overlay
+    Adding Layer      : Board Shape
 
 
 Used DCodes :
+    D11
 *************************************************************
 
 *************************************************************
@@ -81,6 +61,26 @@ Generating : Top Layer
     Adding Layer      : Top Layer
 
     Adding Layer      : Multi-Layer
+
+
+Used DCodes :
+*************************************************************
+
+*************************************************************
+Generating : Bottom Overlay
+      File : FrontPanel.GBO
+
+    Adding Layer      : Bottom Overlay
+
+
+Used DCodes :
+*************************************************************
+
+*************************************************************
+Generating : Top Overlay
+      File : FrontPanel.GTO
+
+    Adding Layer      : Top Overlay
 
 
 Used DCodes :
